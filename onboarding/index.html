@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mod-openclaw — Onboarding Wizard</title>
+    <meta
+      name="description"
+      content="Choose your OpenClaw skills and preferences, then download a ready-to-install extension package."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__logo">🦞</div>
+        <h1 class="header__title">mod-openclaw</h1>
+        <p class="header__subtitle">Extension Onboarding Wizard</p>
+      </header>
+
+      <!-- Progress Bar -->
+      <nav class="progress" id="progress">
+        <div class="progress__step">
+          <div class="progress__dot progress__dot--active" data-step="0">1</div>
+          <span class="progress__label progress__label--active">Welcome</span>
+          <div class="progress__line"></div>
+        </div>
+        <div class="progress__step">
+          <div class="progress__dot" data-step="1">2</div>
+          <span class="progress__label">Skills</span>
+          <div class="progress__line"></div>
+        </div>
+        <div class="progress__step">
+          <div class="progress__dot" data-step="2">3</div>
+          <span class="progress__label">Configure</span>
+          <div class="progress__line"></div>
+        </div>
+        <div class="progress__step" style="flex: 0">
+          <div class="progress__dot" data-step="3">4</div>
+          <span class="progress__label">Download</span>
+        </div>
+      </nav>
+
+      <!-- Wizard Steps -->
+      <main class="wizard">
+        <!-- Step 0: Welcome -->
+        <section class="step step--active" id="step-0">
+          <div class="welcome">
+            <div class="welcome__emoji">🦞</div>
+            <h2 class="welcome__title">Welcome to mod-openclaw</h2>
+            <p class="welcome__text">
+              Extend your OpenClaw assistant with curated skills — no code
+              changes needed. Pick what you want, configure your preferences,
+              and download a ready-to-install package.
+            </p>
+            <div class="welcome__features">
+              <div class="feature-card">
+                <div class="feature-card__icon">📦</div>
+                <div class="feature-card__title">Browse Skills</div>
+                <div class="feature-card__desc">
+                  Curated, security-reviewed skills from the community
+                </div>
+              </div>
+              <div class="feature-card">
+                <div class="feature-card__icon">⚙️</div>
+                <div class="feature-card__title">Configure</div>
+                <div class="feature-card__desc">
+                  Set your location, timezone, and feature toggles
+                </div>
+              </div>
+              <div class="feature-card">
+                <div class="feature-card__icon">⬇️</div>
+                <div class="feature-card__title">Download</div>
+                <div class="feature-card__desc">
+                  Get a ZIP with skills + config — drop into workspace
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-row" style="justify-content: center">
+            <button class="btn btn--primary" onclick="wizard.next()">
+              Get Started →
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 1: Select Skills -->
+        <section class="step" id="step-1">
+          <h2 class="step__title">Choose Your Skills</h2>
+          <p class="step__desc">
+            Select the skills you want to add to your OpenClaw assistant. All
+            have been security-reviewed.
+          </p>
+
+          <div class="selection-bar">
+            <div class="selection-bar__count">
+              <strong id="selected-count">0</strong> of <strong id="total-count">36</strong> skills selected
+            </div>
+            <div class="selection-bar__actions">
+              <button class="selection-bar__btn" onclick="wizard.selectAll()">
+                Select all
+              </button>
+              <button class="selection-bar__btn" onclick="wizard.clearAll()">
+                Clear
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-bar" id="filter-bar">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="skills-grid" id="skills-grid">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="btn-row">
+            <button class="btn btn--secondary" onclick="wizard.prev()">
+              ← Back
+            </button>
+            <button
+              class="btn btn--primary"
+              onclick="wizard.next()"
+              id="btn-step1-next"
+            >
+              Continue →
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 2: Configure -->
+        <section class="step" id="step-2">
+          <h2 class="step__title">Your Preferences</h2>
+          <p class="step__desc">
+            Configure basic settings. These will be included in your generated
+            config file.
+          </p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cfg-location">Location</label>
+              <input
+                type="text"
+                id="cfg-location"
+                placeholder="e.g. Tokyo, Japan"
+                value=""
+              />
+              <div class="form-hint">Used for weather in daily briefing</div>
+            </div>
+            <div class="form-group">
+              <label for="cfg-timezone">Timezone</label>
+              <select id="cfg-timezone">
+                <option value="Asia/Tokyo">Asia/Tokyo (JST)</option>
+                <option value="America/New_York">America/New_York (ET)</option>
+                <option value="America/Chicago">America/Chicago (CT)</option>
+                <option value="America/Los_Angeles">
+                  America/Los_Angeles (PT)
+                </option>
+                <option value="Europe/London">Europe/London (GMT)</option>
+                <option value="Europe/Berlin">Europe/Berlin (CET)</option>
+                <option value="Asia/Shanghai">Asia/Shanghai (CST)</option>
+                <option value="Asia/Hong_Kong">Asia/Hong_Kong (HKT)</option>
+                <option value="Asia/Singapore">Asia/Singapore (SGT)</option>
+                <option value="Australia/Sydney">
+                  Australia/Sydney (AEST)
+                </option>
+                <option value="UTC">UTC</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="cfg-units">Temperature Units</label>
+              <select id="cfg-units">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="cfg-model">Default Model</label>
+              <select id="cfg-model">
+                <option value="anthropic/claude-opus-4-6">
+                  Claude Opus 4.6 (recommended)
+                </option>
+                <option value="anthropic/claude-sonnet-4-5">
+                  Claude Sonnet 4.5
+                </option>
+                <option value="openai/gpt-5.2">GPT-5.2</option>
+                <option value="google/gemini-2.5-pro">Gemini 2.5 Pro</option>
+              </select>
+            </div>
+          </div>
+
+          <h3
+            style="
+              font-size: 14px;
+              color: var(--text-secondary);
+              margin: 24px 0 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+              font-weight: 600;
+            "
+          >
+            Feature Toggles
+          </h3>
+
+          <div id="toggles-container">
+            <!-- Populated by JS based on selected skills -->
+          </div>
+
+          <h3
+            style="
+              font-size: 14px;
+              color: var(--text-secondary);
+              margin: 24px 0 12px;
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+              font-weight: 600;
+            "
+          >
+            🧬 Agent Personality (SOUL.md)
+          </h3>
+          <p style="font-size: 13px; color: var(--text-muted); margin: 0 0 12px;">
+            This defines your agent's personality and communication style.
+            Edit freely — it will be included in your download package.
+          </p>
+          <textarea
+            id="soul-editor"
+            class="soul-editor"
+            spellcheck="false"
+          ></textarea>
+
+          <div class="btn-row">
+            <button class="btn btn--secondary" onclick="wizard.prev()">
+              ← Back
+            </button>
+            <button class="btn btn--primary" onclick="wizard.next()">
+              Continue →
+            </button>
+          </div>
+        </section>
+
+        <!-- Step 3: Review & Download -->
+        <section class="step" id="step-3">
+          <h2 class="step__title">Review & Download</h2>
+          <p class="step__desc">
+            Review your selections, then download the extension package.
+          </p>
+
+          <div class="review-section">
+            <div class="review-section__title">Selected Skills</div>
+            <div id="review-skills">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <div class="review-section">
+            <div class="review-section__title">
+              Generated Config (openclaw.json patch)
+            </div>
+            <pre class="config-preview" id="config-preview"></pre>
+          </div>
+
+          <div class="btn-row">
+            <button class="btn btn--secondary" onclick="wizard.prev()">
+              ← Back
+            </button>
+            <button class="btn btn--download" onclick="wizard.download()">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Package
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

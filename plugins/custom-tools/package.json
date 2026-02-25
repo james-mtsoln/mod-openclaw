@@ -1,0 +1,22 @@
+{
+  "name": "openclaw-custom-tools",
+  "version": "1.0.0",
+  "description": "Custom OpenClaw plugin with additional agent tools",
+  "type": "module",
+  "main": "src/index.js",
+  "openclaw": {
+    "extensions": [
+      "src/index.js"
+    ]
+  },
+  "scripts": {
+    "lint": "echo 'Add your linter here'",
+    "test": "echo 'Add your tests here'"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "tools"
+  ],
+  "license": "MIT"
+}
