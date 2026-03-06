@@ -1,0 +1,24 @@
+{
+  "name": "openclaw-multi-agent",
+  "version": "1.0.0",
+  "description": "Multi-agent orchestration plugin for OpenClaw — 3 specialized agents with routing, A2A tools, and CLI management",
+  "type": "module",
+  "main": "src/index.js",
+  "openclaw": {
+    "extensions": [
+      "src/index.js"
+    ]
+  },
+  "scripts": {
+    "lint": "echo 'Add your linter here'",
+    "test": "node --input-type=module -e \"import('./src/index.js').then(() => console.log('✅ Plugin loads OK')).catch(e => { console.error('❌', e); process.exit(1); })\""
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "multi-agent",
+    "orchestration",
+    "a2a"
+  ],
+  "license": "MIT"
+}

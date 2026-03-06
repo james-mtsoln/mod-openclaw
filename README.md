@@ -30,7 +30,8 @@ mod-openclaw/
 │   ├── SOUL.md                    # Personality & tone configuration
 │   └── TOOLS.md                   # Tool usage preferences & safety rules
 ├── plugins/                       # Gateway plugins (JS/TS modules)
-│   └── custom-tools/              # 🔌 Example plugin template
+│   ├── custom-tools/              # 🔌 Example plugin template
+│   └── multi-agent/               # 🤖 Multi-agent orchestration (3 agents)
 ├── onboarding/                    # Interactive skill selection wizard
 │   ├── index.html                 # 4-step wizard UI
 │   ├── app.js                     # Skill inventory, filter, ZIP generator
