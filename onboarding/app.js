@@ -1231,6 +1231,486 @@ const SKILLS = [
     tags: ['agency-agents', 'persona', 'engineering'], security: 'safe', platform: 'any', source: 'agency-agents',
     category: 'Engineering', config: null,
   },
+  {
+    "id": "ab-test-setup",
+    "name": "ab-test-setup",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to plan, design, or implement an A/B test or experiment. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" or \"how long should I run this test.\" Use this whenever someone is comparing two approaches and wants to measure which performs better. For tracking implementation, see analytics-tracking. For page-level conversion optimization, see page-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "ad-creative",
+    "name": "ad-creative",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to generate, iterate, or scale ad creative \u2014 headlines, descriptions, primary text, or full ad variations \u2014 for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see paid-ads. For landing page copy, see copywriting.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "ai-seo",
+    "name": "ai-seo",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "analytics-tracking",
+    "name": "analytics-tracking",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-test-setup.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "churn-prevention",
+    "name": "churn-prevention",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see email-sequence. For in-app upgrade paywalls, see paywall-upgrade-cro.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "cold-email",
+    "name": "cold-email",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see email-sequence. For sales collateral beyond emails, see sales-enablement.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "competitor-alternatives",
+    "name": "competitor-alternatives",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "content-strategy",
+    "name": "content-strategy",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social-content.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "copy-editing",
+    "name": "copy-editing",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' or 'sharpen the messaging.' Use this when the user already has copy and wants it improved rather than rewritten from scratch. For writing new copy, see copywriting.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "copywriting",
+    "name": "copywriting",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to write, rewrite, or improve marketing copy for any page \u2014 including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see email-sequence. For popup copy, see popup-cro. For editing existing copy, see copy-editing.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "email-sequence",
+    "name": "email-sequence",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "form-cro",
+    "name": "form-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to optimize any form that is NOT signup/registration \u2014 including lead capture forms, contact forms, demo request forms, application forms, survey forms, or checkout forms. Also use when the user mentions \"form optimization,\" \"lead form conversions,\" \"form friction,\" \"form fields,\" \"form completion rate,\" \"contact form,\" \"nobody fills out our form,\" \"form abandonment,\" \"too many fields,\" \"demo request form,\" or \"lead form isn't converting.\" Use this for any non-signup form that captures information. For signup/registration forms, see signup-flow-cro. For popups containing forms, see popup-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "free-tool-strategy",
+    "name": "free-tool-strategy",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes \u2014 lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For content-based lead generation, see content-strategy.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "launch-strategy",
+    "name": "launch-strategy",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "marketing-ideas",
+    "name": "marketing-ideas",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (paid-ads, social-content, email-sequence, etc.).\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "marketing-psychology",
+    "name": "marketing-psychology",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "onboarding-cro",
+    "name": "onboarding-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup-flow-cro. For ongoing email sequences, see email-sequence.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "page-cro",
+    "name": "page-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to optimize, improve, or increase conversions on any marketing page \u2014 including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says \"CRO,\" \"conversion rate optimization,\" \"this page isn't converting,\" \"improve conversions,\" \"why isn't this page working,\" \"my landing page sucks,\" \"nobody's converting,\" \"low conversion rate,\" \"bounce rate is too high,\" \"people leave without signing up,\" or \"this page needs work.\" Use this even if the user just shares a URL and asks for feedback \u2014 they probably want conversion help. For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "paid-ads",
+    "name": "paid-ads",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see page-cro.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "paywall-upgrade-cro",
+    "name": "paywall-upgrade-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see page-cro) \u2014 this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing-strategy.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "popup-cro",
+    "name": "popup-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see form-cro. For general page conversion optimization, see page-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "pricing-strategy",
+    "name": "pricing-strategy",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywall-upgrade-cro.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "product-marketing-context",
+    "name": "product-marketing-context",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills \u2014 it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, and positioning context.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "programmatic-seo",
+    "name": "programmatic-seo",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "referral-program",
+    "name": "referral-program",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch-strategy.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "revops",
+    "name": "revops",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see email-sequence. For pricing decisions, see pricing-strategy.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "sales-enablement",
+    "name": "sales-enablement",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitor-alternatives. For marketing website copy, see copywriting. For cold outreach emails, see cold-email.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "schema-markup",
+    "name": "schema-markup",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "seo-audit",
+    "name": "seo-audit",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" \u2014 start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup. For AI search optimization, see ai-seo.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "signup-flow-cro",
+    "name": "signup-flow-cro",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding-cro. For lead capture forms (not account creation), see form-cro.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "site-architecture",
+    "name": "site-architecture",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO \u2014 see seo-audit). For SEO audits, see seo-audit. For structured data, see schema-markup.",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  },
+  {
+    "id": "social-content",
+    "name": "social-content",
+    "emoji": "\ud83d\udcc8",
+    "author": "coreyhaines31",
+    "description": "\"When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' or 'grow my following.' Use this for any social media content creation, repurposing, or scheduling task. For broader content strategy, see content-strategy.\"",
+    "tags": [
+      "marketing"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
+  }
 ];
 
 // ── Wizard State ─────────────────────────────────────────────

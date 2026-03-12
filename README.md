@@ -1,6 +1,6 @@
 # 🦞 mod-openclaw
 
-Custom extensions for [OpenClaw](https://github.com/openclaw/openclaw) — **zero modifications** to the core codebase. 36 curated skills, personality overrides, and an interactive onboarding wizard.
+Custom extensions for [OpenClaw](https://github.com/openclaw/openclaw) — **zero modifications** to the core codebase. 68 curated skills, personality overrides, and an interactive onboarding wizard.
 
 ## Quick Start
 
@@ -24,7 +24,7 @@ mod-openclaw/
 │   ├── ollama-local/              # 🦙 Local LLM via Ollama
 │   ├── llm-router/                # 🔀 Smart model routing by complexity
 │   ├── mlx-stt/                   # 🎙️ Local speech-to-text (Apple Silicon)
-│   └── ... (36 total — see Skill Catalog below)
+│   └── ... (68 total — see Skill Catalog below)
 ├── prompts/                       # Workspace prompt overrides
 │   ├── AGENTS.md                  # Agent routing & custom instructions
 │   ├── SOUL.md                    # Personality & tone configuration
@@ -50,7 +50,7 @@ mod-openclaw/
 
 ---
 
-## Skill Catalog (36 Skills)
+## Skill Catalog (68 Skills)
 
 ### Starter (7)
 
@@ -113,6 +113,43 @@ mod-openclaw/
 | `domain-brainstorm`    | 🌐    | Domain name generation + DNS check |
 | `presentation-builder` | 🎯    | Ideas → structured slide decks     |
 
+### Marketing (32)
+
+| Skill                         | Emoji | Description                                                                                 |
+| ----------------------------- | ----- | ------------------------------------------------------------------------------------------- |
+| `ab-test-setup`               | 📈    | Plan, design, or implement A/B tests and experiments                                        |
+| `ad-creative`                 | 📈    | Generate and iterate on ad creative and headlines for paid advertising                      |
+| `ai-seo`                      | 📈    | Optimize content for AI search engines and LLM answers                                      |
+| `analytics-tracking`          | 📈    | Set up and implement analytics tracking and measurement                                     |
+| `churn-prevention`            | 📈    | Build strategies to reduce churn and build cancellation flows                               |
+| `cold-email`                  | 📈    | Write effective B2B cold emails and follow-up sequences                                     |
+| `competitor-alternatives`     | 📈    | Create competitor comparison or alternative pages for SEO                                   |
+| `content-strategy`            | 📈    | Plan content strategies and develop topics                                                  |
+| `copy-editing`                | 📈    | Edit and polish existing marketing copy                                                     |
+| `copywriting`                 | 📈    | Write persuasive marketing copy for landing pages and websites                              |
+| `email-sequence`              | 📈    | Create multi-email drip sequences and automated lifecycle emails                            |
+| `form-cro`                    | 📈    | Optimize non-signup forms for better lead conversion                                        |
+| `free-tool-strategy`          | 📈    | Plan calculators and interactive free tools for lead generation                             |
+| `launch-strategy`             | 📈    | Plan product launches and release strategies                                                |
+| `marketing-ideas`             | 📈    | Brainstorm general marketing strategies and growth tactics                                  |
+| `marketing-psychology`        | 📈    | Apply psychological principles and behavioral science to marketing                          |
+| `onboarding-cro`              | 📈    | Optimize post-signup onboarding and user activation                                         |
+| `page-cro`                    | 📈    | Increase conversion rates on marketing landing pages                                        |
+| `paid-ads`                    | 📈    | Strategy and optimization for paid advertising campaigns                                    |
+| `paywall-upgrade-cro`         | 📈    | Optimize in-app paywalls and feature gates for upgrades                                     |
+| `popup-cro`                   | 📈    | Optimize conversion popups, overlays, and banners                                           |
+| `pricing-strategy`            | 📈    | Monetization strategy, pricing tiers, and packaging                                         |
+| `product-marketing-context`   | 📈    | Create foundational product context for AI marketing tasks                                  |
+| `programmatic-seo`            | 📈    | Create SEO-driven pages at scale using templates                                            |
+| `referral-program`            | 📈    | Build and optimize referral and affiliate programs                                          |
+| `revops`                      | 📈    | Revenue operations, lead routing, and marketing-to-sales handoff                            |
+| `sales-enablement`            | 📈    | Create sales collateral, pitch decks, and objection handling docs                           |
+| `schema-markup`               | 📈    | Add and optimize schema structured data for search engines                                  |
+| `seo-audit`                   | 📈    | Technical SEO audits and on-page optimization                                               |
+| `signup-flow-cro`             | 📈    | Optimize account creation and free trial registration flows                                 |
+| `site-architecture`           | 📈    | Structure and plan website navigation and hierarchy                                         |
+| `social-content`              | 📈    | Create and schedule content for various social media platforms                              |
+
 ### Apple / macOS (5)
 
 | Skill         | Emoji | Description                          |
@@ -130,7 +167,7 @@ mod-openclaw/
 A browser-based 4-step wizard for selecting and configuring skills:
 
 1. **Welcome** — Introduction and feature overview
-2. **Choose Skills** — Browse 36 skills with category filter bar (All / Starter / Development / Productivity / Research & Data / Creative & Media / Business / Apple / macOS)
+2. **Choose Skills** — Browse 68 skills with category filter bar (All / Starter / Development / Productivity / Research & Data / Creative & Media / Business / Marketing / Apple / macOS)
 3. **Configure** — Set location, timezone, temperature units, default model, and per-skill feature toggles
 4. **Download** — Review selections and download a ready-to-install ZIP package
 
@@ -257,6 +294,7 @@ openclaw gateway restart
 | [sanjay3290/deep-research](https://github.com/sanjay3290/deep-research-skill)                            | deep-research                                                                                                                                                 |
 | [Raghav / Cash & Cache](https://docs.google.com/document/d/1ZheJNz5zd4LtpDE1EXo9Q2Xw-xa2wcmwJ13SemT2940) | newsletter-ideation, presentation-builder                                                                                                                     |
 | [Notion Creator](https://chemical-clematis-3fe.notion.site)                                              | content-extractor                                                                                                                                             |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)                        | ab-test-setup, ad-creative, ai-seo, analytics-tracking, churn-prevention, cold-email, competitor-alternatives, content-strategy, copy-editing, copywriting, email-sequence, form-cro, free-tool-strategy, launch-strategy, marketing-ideas, marketing-psychology, onboarding-cro, page-cro, paid-ads, paywall-upgrade-cro, popup-cro, pricing-strategy, product-marketing-context, programmatic-seo, referral-program, revops, sales-enablement, schema-markup, seo-audit, signup-flow-cro, site-architecture, social-content |
 
 ## Docs
 
