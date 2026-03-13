@@ -1710,6 +1710,276 @@ const SKILLS = [
     "source": "adapted",
     "category": "Marketing",
     "config": null
+  },
+  {
+    "id": "adapt",
+    "name": "adapt",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures consistent experience across varied environments.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "animate",
+    "name": "animate",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "audit",
+    "name": "audit",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Perform comprehensive audit of interface quality across accessibility, performance, theming, and responsive design. Generates detailed report of issues with severity ratings and recommendations.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "bolder",
+    "name": "bolder",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "clarify",
+    "name": "clarify",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions. Makes interfaces easier to understand and use.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "colorize",
+    "name": "colorize",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Add strategic color to features that are too monochromatic or lack visual interest. Makes interfaces more engaging and expressive.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "critique",
+    "name": "critique",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Evaluate design effectiveness from a UX perspective. Assesses visual hierarchy, information architecture, emotional resonance, and overall design quality with actionable feedback.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "delight",
+    "name": "delight",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "distill",
+    "name": "distill",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "extract",
+    "name": "extract",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse and enriches your component library.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "frontend-design",
+    "name": "frontend-design",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "harden",
+    "name": "harden",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management. Makes interfaces robust and production-ready.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "normalize",
+    "name": "normalize",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Normalize design to match your design system and ensure consistency",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "onboard",
+    "name": "onboard",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Design or improve onboarding flows, empty states, and first-time user experiences. Helps users get started successfully and understand value quickly.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "optimize",
+    "name": "optimize",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Improve interface performance across loading speed, rendering, animations, images, and bundle size. Makes experiences faster and smoother.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "polish",
+    "name": "polish",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Final quality pass before shipping. Fixes alignment, spacing, consistency, and detail issues that separate good from great.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "quieter",
+    "name": "quieter",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "Tone down overly bold or visually aggressive designs. Reduces intensity while maintaining design quality and impact.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
+  },
+  {
+    "id": "teach-impeccable",
+    "name": "teach-impeccable",
+    "emoji": "✨",
+    "author": "impeccable",
+    "description": "One-time setup that gathers design context for your project and saves it to your AI config file. Run once to establish persistent design guidelines.",
+    "tags": [
+      "impeccable-style"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "impeccable",
+    "category": "Design & Polish",
+    "config": null
   }
 ];
 
