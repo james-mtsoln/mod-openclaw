@@ -1980,6 +1980,23 @@ const SKILLS = [
     "source": "impeccable",
     "category": "Design & Polish",
     "config": null
+  },
+  {
+    "id": "humanizer",
+    "name": "Humanizer",
+    "emoji": "📝",
+    "author": "blader",
+    "description": "Remove signs of AI-generated writing from text. Detects and fixes 24 patterns including inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, and more. Based on Wikipedia's 'Signs of AI writing' guide.",
+    "tags": [
+      "writing",
+      "editing",
+      "ai-detection"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Writing",
+    "config": null
   }
 ];
 
