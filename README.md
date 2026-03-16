@@ -113,7 +113,7 @@ mod-openclaw/
 | `domain-brainstorm`    | 🌐    | Domain name generation + DNS check |
 | `presentation-builder` | 🎯    | Ideas → structured slide decks     |
 
-### Marketing (32)
+### Marketing (33)
 
 | Skill                         | Emoji | Description                                                                                 |
 | ----------------------------- | ----- | ------------------------------------------------------------------------------------------- |
@@ -145,6 +145,7 @@ mod-openclaw/
 | `revops`                      | 📈    | Revenue operations, lead routing, and marketing-to-sales handoff                            |
 | `sales-enablement`            | 📈    | Create sales collateral, pitch decks, and objection handling docs                           |
 | `schema-markup`               | 📈    | Add and optimize schema structured data for search engines                                  |
+| `semantic-seo-architect`      | 🏗️    | Semantic SEO and site architecture optimization based on Word2Vec/PageRank                  |
 | `seo-audit`                   | 📈    | Technical SEO audits and on-page optimization                                               |
 | `signup-flow-cro`             | 📈    | Optimize account creation and free trial registration flows                                 |
 | `site-architecture`           | 📈    | Structure and plan website navigation and hierarchy                                         |
@@ -167,7 +168,7 @@ mod-openclaw/
 A browser-based 4-step wizard for selecting and configuring skills:
 
 1. **Welcome** — Introduction and feature overview
-2. **Choose Skills** — Browse 68 skills with category filter bar (All / Starter / Development / Productivity / Research & Data / Creative & Media / Business / Marketing / Apple / macOS)
+2. **Choose Skills** — Browse 69 skills with category filter bar (All / Starter / Development / Productivity / Research & Data / Creative & Media / Business / Marketing / Apple / macOS)
 3. **Configure** — Set location, timezone, temperature units, default model, and per-skill feature toggles
 4. **Download** — Review selections and download a ready-to-install ZIP package
 

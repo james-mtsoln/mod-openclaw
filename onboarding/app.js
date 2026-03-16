@@ -1997,6 +1997,22 @@ const SKILLS = [
     "source": "adapted",
     "category": "Writing",
     "config": null
+  },
+  {
+    "id": "semantic-seo-architect",
+    "name": "Semantic SEO Architect",
+    "emoji": "🏗️",
+    "author": "coreyhaines31",
+    "description": "When the user wants to optimize their content strategy, site architecture, and content visibility based on foundational Google search theories like Word2Vec (semantic keyword clustering and context) and PageRank (link equity, authority, and anchor text strategy). Use this skill to structure content ecosystems that search engines logically understand and prioritize.",
+    "tags": [
+      "marketing",
+      "seo"
+    ],
+    "security": "safe",
+    "platform": "any",
+    "source": "adapted",
+    "category": "Marketing",
+    "config": null
   }
 ];
 
